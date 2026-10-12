@@ -1,12 +1,40 @@
-/* Stage 1/8: тільки HTML-каркас + мінімальна база */
+:root {
+  --green: #2fb457;
+  --green-dark: #239a47;
+  --text: #1d1d1d;
+  --muted: #6b6b6b;
+  --gray: #f1f1f1;
+  --dark: #1a1a1a;
+  --r: 0.25rem;
+  --shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.08);
+  --shadow-green: 0 0.5rem 1.25rem rgba(47, 180, 87, 0.35);
+}
 .page {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+  line-height: 1.5;
 }
 .container {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
 }
 .section-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-top: 2.5rem;
   text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.features, .programs, .contact { padding-bottom: 3rem; }
+.features__list, .programs__list {
+  display: grid;
+  grid-template-columns: 1fr;
 }
