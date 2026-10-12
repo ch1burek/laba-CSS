@@ -208,3 +208,19 @@
 .logo__icon { width: 2rem; height: 2rem; color: var(--green); }
 .footer__nav { display: flex; flex-direction: column; gap: 0.6rem; }
 .footer__link { color: #e8e8e8; text-decoration: none; font-size: 0.9rem; font-weight: 600; }
+/* ПК - як desktop.png */
+@media (min-width: 64rem) {
+  .section-title { font-size: 2.4rem; }
+  .features__list, .programs__list { grid-template-columns: 1fr 1fr 1fr; }
+  .contact__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+  .contact__form, .contact__details { order: 0; }
+  .info { flex-direction: row; justify-content: space-between; }
+  .info__item { flex: 1; }
+  .footer__inner { flex-direction: row; justify-content: space-between; text-align: left; }
+  .footer__nav { flex-direction: row; gap: 1rem; }
+}
