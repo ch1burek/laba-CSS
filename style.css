@@ -1,0 +1,12 @@
+/* Stage 1/8: тільки HTML-каркас + мінімальна база */
+.page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.section-title {
+  text-align: center;
+}
