@@ -224,7 +224,7 @@
 .footer__nav { display: flex; flex-direction: column; gap: 0.6rem; }
 .footer__link { color: #e8e8e8; text-decoration: none; font-size: 0.9rem; font-weight: 600; }
 .footer__link:hover { color: var(--green); }
-/* ПК - як desktop.png */
+/* Комп'ютерна версія - як desktop.png */
 @media (min-width: 64rem) {
   .section-title { font-size: 2.4rem; }
   .features__list, .programs__list { grid-template-columns: 1fr 1fr 1fr; }
